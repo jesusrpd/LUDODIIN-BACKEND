@@ -1,8 +1,8 @@
-const http = require('http');
-const express = require('express');
+import http from 'http';
+import express from 'express';
+import morgan from 'morgan';
+import cors from 'cors';
 const app = express();
-const morgan = require('morgan');
-const cors = require('cors');
 const server = http.createServer(app);
 
 app.use(cors());
