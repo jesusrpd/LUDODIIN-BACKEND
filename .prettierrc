@@ -1,0 +1,24 @@
+{
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 80,
+  "useTabs": false,
+  "jsxSingleQuote": true,
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2,
+        "semi": false,
+        "singleQuote": true,
+        "printWidth": 80,
+        "useTabs": false,
+        "jsxSingleQuote": true,
+        "arrowParens": "avoid"
+      }
+    }
+  ]
+}
