@@ -1,0 +1,25 @@
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+  "email": "jesusrodrigo881@gmail.com",
+  "password": "30092002"
+}
+
+###
+
+POST http://localhost:3001/auth/signup
+Content-Type: application/json
+
+{
+  "name": "jesus",
+  "email": "jesus@gmail.com",
+  "passord": "123",
+  "genre": "Hombre",
+  "age": 19,
+  "img_path": "img"
+}
+
+###
+
+GET http://localhost:3001/welcome
